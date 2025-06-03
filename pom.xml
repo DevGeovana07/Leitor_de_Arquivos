@@ -15,6 +15,7 @@
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
       <version>2.11.0</version>
+<<<<<<< Updated upstream
     </dependency>
 
     <!-- Biblioteca para NLP básica -->
@@ -40,3 +41,20 @@
   </dependencies>
 </project>
 
+=======
+    </dependency>                                                                                
+
+
+
+
+    <!-- Biblioteca para análise de sentimentos -->
+<dependency>
+    <groupId>edu.stanford.nlp</groupId>
+    <artifactId>stanford-corenlp</artifactId>
+    <version>4.5.4</version>
+ </dependency>
+<dependency>
+
+
+<groupId>
+>>>>>>> Stashed changes
