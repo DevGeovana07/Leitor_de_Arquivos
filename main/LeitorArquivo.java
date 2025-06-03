@@ -20,3 +20,9 @@ import java.io.IOException;
         String[] palavras = SimpleTokenizer.INSTANCE.tokenize(conteudo);
         System.out.println("\nNúmero de linhas: " + linhas);
         System.out.println("Número de palavras: " + palavras.length);
+
+        // 3. Análise de sentimentos usando Stanford CoreNLP
+        Properties props = new Properties();
+        props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,sentiment");
+        StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
+        
