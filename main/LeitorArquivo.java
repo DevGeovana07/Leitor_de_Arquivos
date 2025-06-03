@@ -26,3 +26,14 @@ import java.io.IOException;
         props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,sentiment");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
         
+        CoreDocument doc = new CoreDocument(conteudo);
+        pipeline.annotate(doc);
+
+System.out.println("\nAnálise de Sentimentos:");
+        for (CoreSentence sentence : doc.sentences()) {
+            String sent = sentence.text();
+            String sentiment = sentence.sentiment();
+            System.out.println("[" + sentiment + "] " + sent);
+        }
+    }
+}
