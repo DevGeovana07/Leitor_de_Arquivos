@@ -18,43 +18,30 @@
 <<<<<<< Updated upstream
     </dependency>
 
+<<<<<<< HEAD
     <!-- Biblioteca para NLP básica -->
     <dependency>
         <groupId>org.apache.opennlp</groupId>
         <artifactId>opennlp-tools</artifactId>
         <version>2.3.0</version>
-    </dependency>
-
-
-    <!-- Biblioteca para análise de sentimentos -->
-      <dependency>
-       <groupId>edu.stanford.nlp</groupId>
-       <artifactId>stanford-corenlp</artifactId>
-       <version>4.5.4</version>
-     </dependency>
-    <dependency>
-      <groupId>edu.stanford.nlp</groupId>
-      <artifactId>stanford-corenlp</artifactId>
-      <version>4.5.4</version>
-      <classifier>models</classifier>
-    </dependency>
-  </dependencies>
-</project>
-
+      </dependency>
 =======
-    </dependency>                                                                                
+     <!-- Biblioteca para NLP básica -->
+    <dependency>
+      <groupId>org.apache.opennlp</groupId>
+      <artifactId>opennlp-tools</artifactId>
+      <version>2.3.0</version>
+    </dependency>
 
-
-
-
-    <!-- Biblioteca para análise de sentimentos -->
 <dependency>
-    <groupId>edu.stanford.nlp</groupId>
-    <artifactId>stanford-corenlp</artifactId>
-    <version>4.5.4</version>
- </dependency>
+  <groupId>edu.stanford.nlp</groupId>
+  <artifactId>stanford-corenlp</artifactId>
+  <version>4.5.4</version>
+</dependency>
 <dependency>
-
-
-<groupId>
->>>>>>> Stashed changes
+  <groupId>edu.stanford.nlp</groupId>
+  <artifactId>stanford-corenlp</artifactId>
+  <version>4.5.4</version>
+  <classifier>models</classifier>
+</dependency>
+>>>>>>> d7060ab6e36cf4f3c80076959f6d60eecf437144
