@@ -24,7 +24,7 @@
       <version>2.3.0</version>
     </dependency>
 
-< <!-- Biblioteca para análise de sentimentos -->
+ <!-- Biblioteca para análise de sentimentos -->
     <dependency>
       <groupId>edu.stanford.nlp</groupId>
       <artifactId>stanford-corenlp</artifactId>
