@@ -13,7 +13,8 @@ import java.io.IOException;
 
         // 1. Leitura do arquivo
         String conteudo = FileUtils.readFileToString(file, "UTF-8");
-        System.out.println("Conteúdo do arquivo:\n" + conteudo);
+        System.out.println("Conteúdo do arquivo:\n" + conteudo);
+
 
         // 2. Contar palavras e linhas
         int linhas = conteudo.split("\r\n|\r|\n").length;
